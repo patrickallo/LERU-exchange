@@ -2202,13 +2202,13 @@ vertical-align: -.125em;
 <section id="processing-the-data" class="level1 hidden">
 <h1 class="hidden">Processing the data</h1>
 <p>I’m moving all the data-processing to the front and only keep the figures in the real structure</p>
-<div id="a237a91c" class="cell" data-execution_count="11">
+<div id="3943f608" class="cell" data-execution_count="11">
 <div class="cell-output cell-output-stderr">
-<pre><code>/var/folders/dr/ftnkslcs0mb_6ymlcpgs4t9h0000gn/T/ipykernel_47395/1448888359.py:13: Pandas4Warning: Setting a new column on a DataFrame with a MultiIndex using a key that is not a full-length tuple is deprecated and will raise in a future version. DataFrame.assign cannot take a tuple key; use df[(&#39;total&#39;, &#39;&#39;)] = ... instead.
+<pre><code>/var/folders/dr/ftnkslcs0mb_6ymlcpgs4t9h0000gn/T/ipykernel_48652/1448888359.py:13: Pandas4Warning: Setting a new column on a DataFrame with a MultiIndex using a key that is not a full-length tuple is deprecated and will raise in a future version. DataFrame.assign cannot take a tuple key; use df[(&#39;total&#39;, &#39;&#39;)] = ... instead.
   preferences_df = preferences_df.assign(</code></pre>
 </div>
 </div>
-<div id="42a494cb" class="cell" data-execution_count="15">
+<div id="bf94966b" class="cell" data-execution_count="15">
 <div class="cell-output cell-output-stdout">
 <pre><code>                                        2024  2025  2026
 Detailed status                                         
@@ -2224,21 +2224,21 @@ Rejected                                   0     8     6
 Withdrawn                                  1     0     1</code></pre>
 </div>
 </div>
-<div id="acdea8b6" class="cell" data-execution_count="16">
+<div id="b1d112fa" class="cell" data-execution_count="16">
 <div class="cell-output cell-output-stderr">
-<pre><code>/var/folders/dr/ftnkslcs0mb_6ymlcpgs4t9h0000gn/T/ipykernel_47395/1173356155.py:13: Pandas4Warning: Setting a new column on a DataFrame with a MultiIndex using a key that is not a full-length tuple is deprecated and will raise in a future version. DataFrame.assign cannot take a tuple key; use df[(&#39;Available positions&#39;, &#39;&#39;)] = ... instead.
+<pre><code>/var/folders/dr/ftnkslcs0mb_6ymlcpgs4t9h0000gn/T/ipykernel_48652/1173356155.py:13: Pandas4Warning: Setting a new column on a DataFrame with a MultiIndex using a key that is not a full-length tuple is deprecated and will raise in a future version. DataFrame.assign cannot take a tuple key; use df[(&#39;Available positions&#39;, &#39;&#39;)] = ... instead.
   capacity_assignments_and_visits = capacity_assignments_and_visits.assign(**{&quot;Available positions&quot;: capacity})</code></pre>
 </div>
 </div>
-<div id="6ba4350d" class="cell" data-execution_count="17">
-<div class="cell-output cell-output-display" data-execution_count="57">
+<div id="b94d7c15" class="cell" data-execution_count="17">
+<div class="cell-output cell-output-display" data-execution_count="17">
 <pre><code>np.float64(62.0)</code></pre>
 </div>
 </div>
 </section>
 <section id="summary" class="level1">
 <h1>Summary</h1>
-<p>This report reviews the application rounds of 2024 and 2025 as well as the ongoing 2026 application round of the LERU Law PhD Exchange Programme. With this review we want to clarify the scope and functioning of the exchange programme as well as the role and workload for the coordinators. We summarise where the applicants come from, their preferences, the outcomes of the allocation process (from initial allocation to finale outcome), compare this with the number of availabe positions, and finally analyse the relation between home universities and destinations.</p>
+<p>This report reviews the application rounds of 2024 and 2025 as well as the closing 2026 application round of the LERU Law PhD Exchange Programme. With this review we want to clarify the scope and functioning of the exchange programme as well as the role and workload for the coordinators. We summarise where the applicants come from, their preferences, the outcomes of the allocation process (from initial allocation to finale outcome), compare this with the number of availabe positions, and finally analyse the relation between home universities and destinations.</p>
 <section id="key-findings" class="level2">
 <h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
 <ul>
@@ -2317,7 +2317,7 @@ Figure 1: Applications by year and home university
 Table 1: Applications by year and home university
 </figcaption>
 <div aria-describedby="tbl-applications-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell-output cell-output-display" data-execution_count="60">
+<div class="cell-output cell-output-display" data-execution_count="20">
 <table class="dataframe table table-sm table-striped small">
 
 <thead>
@@ -2775,7 +2775,7 @@ Figure 2: Preferences by year and destination
 Table 2: Preferences by year and destination
 </figcaption>
 <div aria-describedby="tbl-preferences-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell-output cell-output-display" data-execution_count="62">
+<div class="cell-output cell-output-display" data-execution_count="22">
 <table class="dataframe table table-sm table-striped small">
 
 <thead>
@@ -3762,7 +3762,7 @@ Figure 3: Assignments by year and preference
 Table 3: Assignments by year and home university
 </figcaption>
 <div aria-describedby="tbl-assignments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell-output cell-output-display" data-execution_count="64">
+<div class="cell-output cell-output-display" data-execution_count="24">
 <table class="dataframe table table-sm table-striped small">
 
 <thead>
@@ -5238,7 +5238,7 @@ Total
 Table 4: Outcomes by year and outcome type
 </figcaption>
 <div aria-describedby="tbl-outcomes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell-output cell-output-display" data-execution_count="65">
+<div class="cell-output cell-output-display" data-execution_count="25">
 <table class="dataframe table table-sm table-striped small">
 
 <thead>
@@ -5518,7 +5518,7 @@ Figure 4: Outcomes by year and outcome type
 Table 5: Available positions used by year and by destination
 </figcaption>
 <div aria-describedby="tbl-capacity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell-output cell-output-display" data-execution_count="67">
+<div class="cell-output cell-output-display" data-execution_count="27">
 <table class="dataframe table table-sm table-striped small">
 
 <thead>
